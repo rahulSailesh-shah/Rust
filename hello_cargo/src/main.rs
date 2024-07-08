@@ -1,3 +1,5 @@
+use hello_cargo::greet;
+
 fn main() {
-    println!("Hello, world!")
+    greet();
 }
