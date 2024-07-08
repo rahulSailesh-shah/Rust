@@ -1,5 +1,7 @@
 use std::io;
 
+
+#[allow(unused)]
 fn main() {
     let x = 5;
     // Shadowing from now on the compiler sees the value of x as 6
@@ -36,4 +38,5 @@ fn main() {
     let ele = nums[idx];
 
     println!("{ele}");
+
 }
